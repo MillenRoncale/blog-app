@@ -1,0 +1,167 @@
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.put-bg {
+  background-image: url(../img/Valorant_Cover_Art.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  height: 900px;
+}
+
+.navbar {
+  overflow: hidden;
+}
+
+div a {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 2px;
+}
+
+div .playNow:hover {
+  background-color: rgb(119, 15, 15);
+  border-color: transparent;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+  color: brown;
+}
+
+.goSomewhere:hover {
+  text-decoration: underline;
+  color: brown;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  float: left;
+  margin-top: 700px;
+  margin-left: 800px;
+  background-color: brown;
+  padding: 20px;
+  width: 300px;
+  border-color: transparent;
+}
+
+/* footer */
+
+.footer-main {
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 0;
+}
+
+li {
+  margin: 15px;
+}
+
+/* NEWS */
+
+.latest {
+  margin: 50px;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 5px;
+  text-decoration: underline;
+  color: rgb(126, 21, 21);
+}
+
+.carouselExample {
+  object-fit: center;
+}
+
+/* LOGIN */
+
+.login {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 2px;
+  background-color: brown;
+  padding: 20px;
+  width: 100px;
+  border-color: transparent;
+  border-radius: 15px;
+}
+
+.login:hover {
+  background-color: rgb(119, 15, 15);
+  border-color: transparent;
+}
+
+/*  MAPS */
+
+.goSomewhere {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 2px;
+  margin-left: 40px;
+  background-color: brown;
+  padding: 20px;
+  width: 100px;
+  border-color: transparent;
+  border-radius: 15px;
+}
+
+.goSomewhere:hover {
+  background-color: rgb(119, 15, 15);
+  border-color: transparent;
+  text-decoration: none;
+  color: black;
+}
+
+.card {
+  display: inline-block;
+  margin: 90px;
+  background-color: rgb(189, 189, 189);
+  border-radius: 10px;
+}
+
+.card-title {
+  text-align: center;
+  color: maroon;
+}
+
+/*  LOGIN */
+
+.cardLogin {
+    text-align: center;
+    margin-top: 170px;
+    margin-left: 700px;
+    margin-bottom: 170px;
+    width: 500px;
+    height: 450px;
+}
+
+.form-control {
+    width: 400px;
+}
+
+.car-body {
+    text-align: center;
+}
+
+.login {
+    margin-top: 500px;
+}
